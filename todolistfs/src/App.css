@@ -1,0 +1,62 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.createform input {
+  width: 300px;
+  padding: 10px;
+  border-bottom: 2px solid;
+  outline: none;
+}
+
+.createform button {
+  padding: 10px;
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+}
+.data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(193, 189, 189);
+  margin: 5px;
+  width: 340px;
+  height: 30px;
+  text-align: center;
+  font-weight: bolder;
+  color: blue;
+  padding-top: 2px;
+}
+.datacontainer{
+    margin-top: 20px;
+    cursor: pointer;
+    
+}
+.data{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 10px;
+}
+Link>.button{
+  text-decoration: none;
+}
+button{
+  text-decoration: none;
+  padding: 10px;
+}
+.clickedtrue{
+   text-decoration: line-through;
+}
+.clickedfalse{
+  text-decoration: none;
+}
+.done{
+  text-decoration: line-through;
+}
+.wrong{
+  text-decoration: none;
+}
